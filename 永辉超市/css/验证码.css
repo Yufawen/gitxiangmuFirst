@@ -1,0 +1,97 @@
+body, div, p, ol, ul, li, dl, dt, dd, form, table, tr, td, hr, h1, h2, h3, h4, h5, h6, fieldset, img, input, figure {
+    margin: 0;
+    padding: 0;
+}
+
+body,html{
+    height:100%;
+
+}
+
+html{
+    font-size: 26.67vw;
+}
+
+
+body {
+    width: 100%;
+    height: 100%;
+    /*font-family: "Helvetica Neue", Helvetica, STHeiTi, sans-serif;*/
+    background: #FFF;
+}
+
+ul,li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+input {
+    outline: 0;
+}
+
+.text{
+    margin-top: 1.05rem;
+    width: 100%;
+    height: 1.2rem;
+    font-size: 26px;
+
+}
+.text p{
+    margin-left: .25rem;
+}
+.text span{
+    margin-left: .25rem;
+    display: inline-block;
+    font-size: 16px;
+    color: #666666;
+}
+.text a{
+    margin-left: .6rem;
+    display: inline-block;
+    font-size: 16px;
+    color: #c2bdba;
+}
+.ipt{
+    width: 100%;
+    height: 2rem;
+}
+.ipt input{
+    width: 0.3rem;
+    border: 0;
+    font-size: 18px;
+    display: inline-block;
+    color: #b5b5b5;
+    padding: .1rem 0rem;
+    box-sizing: border-box;
+    border-bottom: 1px solid #999999;
+}
+.submitone{
+    margin-top: 13px;
+    /*display: block;*/
+    float: left;
+    margin-left: 20px;
+    width: 1rem;
+    color: #000000;
+    font-size: 16px;
+    background: #ffffff;
+    padding: 12px 0px;
+    text-align: center;
+    border-radius: 20px;
+    border: 1px solid #000000;
+}
+.submittwo{
+    margin-top: 13px;
+    /*display: block;*/
+    float: right;
+    margin-right: 22px;
+    width: 1.4rem;
+    color: #b9b9b9;
+    font-size: 18px;
+    background: #f2f2f2;
+    padding: 12px 0px;
+    text-align: center;
+    border-radius: 20px;
+}
+

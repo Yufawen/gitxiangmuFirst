@@ -1,0 +1,32 @@
+1 document.body.clientWidth ==> BODY对象宽度
+ 2 document.body.clientHeight ==> BODY对象高度
+ 3 document.documentElement.clientWidth ==> 可见区域宽度
+ 4 document.documentElement.clientHeight ==> 可见区域高度
+ 5   
+ 6 document.body.clientWidth ==> 网页可见区域宽 
+ 7 document.body.clientHeight ==> 网页可见区域高
+ 8 document.body.offsetWidth ==> 网页可见区域宽(包括边线的宽)
+ 9 document.body.offsetHeight ==> 网页可见区域高(包括边线的高)
+10 document.body.scrollWidth ==> 网页正文全文宽document.body.scrollHeight ==> 网页正文全文高
+11 document.body.scrollTop ==> 网页被卷去的高
+12 document.body.scrollLeft ==> 网页被卷去的左
+13 window.screenTop ==> 网页正文部分上
+14 window.screenLeft ==> 网页正文部分左
+15 window.screen.height ==> 屏幕分辨率的高
+16 window.screen.width ==> 屏幕可用工作区高度
+17 window.screen.availHeight ==> 屏幕可用工作区高度
+18 window.screen.availWidth ==> 屏幕可用工作区宽度
+复制代码
+ 部分jquery函数获取方法
+
+复制代码
+1 // 部分jQuery函数  
+2 $(window).height() 　              //浏览器时下窗口可视区域高度   
+3 $(document).height()　           //浏览器时下窗口文档的高度   
+4 $(document.body).height()　　　　　　//浏览器时下窗口文档body的高度   
+5 $(document.body).outerHeight(true)　//浏览器时下窗口文档body的总高度 包括border padding margin   
+6 $(window).width() 　   //浏览器时下窗口可视区域宽度   
+7 $(document).width()   //浏览器时下窗口文档对于象宽度   
+8 $(document.body).width()　　　　　　//浏览器时下窗口文档body的高度   
+9 $(document.body).outerWidth(true)　//浏览器时下窗口文档body的总宽度 包括border padding  
+复制代码

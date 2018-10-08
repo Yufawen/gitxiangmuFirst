@@ -1,0 +1,163 @@
+.dabox{
+	width: 100%;
+	padding: 80px 0px;
+	background: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+/*新加入的部分*/
+.cjzhanghao{
+    margin-right: 20px;
+	
+	padding: 100px 10px;
+}
+.cjzhanghao1{
+	
+	padding-top: 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.cjzhanghao1 h1{
+	font-size: 16px;
+	color:#000000;
+	font-weight: 900;
+	line-height: 30px;
+}
+.cjzhanghao1 p{
+	color: #757585;
+	font-size: 16px;
+	line-height: 30px;
+}
+
+.cjzhanghao2{
+	
+	padding-top: 30px;
+	position: relative;
+}
+.cjzhanghao2 input{	
+	outline: none;
+	
+	width: 512px;
+	height: 30px;	
+	border:none ;
+	border-bottom: 1px solid black;	
+}
+.jintiao5{
+	width:0px;
+	height: 2px;
+	
+}
+.cjzhanghao3{
+	
+	padding-top: 30px;
+	position: relative;
+}
+.cjzhanghao3 input{	
+	outline: none;
+	
+	width: 512px;
+	height: 30px;	
+	border:none ;
+	border-bottom: 1px solid black;	
+}
+.jintiao6{
+	width:0px;
+	height: 2px;
+	
+}
+
+.cjzhanghao4{
+	
+	padding-top: 30px;
+	position: relative;
+}
+.cjzhanghao4 input{	
+	outline: none;
+	
+	width: 512px;
+	height: 30px;	
+	border:none ;
+	border-bottom: 1px solid black;	
+}
+.jintiao7{
+	width:0px;
+	height: 2px;
+	
+}
+/*查看订单状态*/
+.chuangjianzhanghao{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+}
+#chuangjianzhanghaoA{
+  display: block;
+  padding:20px 100px;
+  background: black;
+  color: white;
+  margin:30px 0px;
+}
+/*下拉列表*/
+.xiala{
+	position: relative;
+}
+.xiala img{
+	display: block;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+}
+.selectxiushi{
+	display: flex;
+	height:50px;
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid black;
+	outline: none;
+	color: #757585;
+	font-size: 16px;
+}
+/*密码*/
+.cjzhanghao4{
+	
+	padding-top: 30px;
+	position: relative;
+}
+.cjzhanghao5 input{	
+	outline: none;
+	
+	width: 512px;
+	height: 30px;	
+	border:none ;
+	border-bottom: 1px solid black;	
+}
+.jintiao8{
+	width:0px;
+	height: 2px;
+	
+}
+
+.cjzhanghao5{
+	
+	padding-top: 30px;
+	position: relative;
+}
+.cjzhanghao5 input{	
+	outline: none;
+	
+	width: 512px;
+	height: 30px;	
+	border:none ;
+	border-bottom: 1px solid black;	
+}
+.jintiao8{
+	width:0px;
+	height: 2px;
+	
+}
+
+
+

@@ -1,0 +1,27 @@
+.nvshizi{
+	width: 100%;
+	padding: 100px 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.nvshizi p{
+	font-size: 40px;
+	font-weight: 900;
+	color: black;
+}
+
+
+.jiazainvshi{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.jiazainvshi img{
+	display: block;
+	width: 1122px;
+	height: 552px;
+	margin: 10px 0px;
+}

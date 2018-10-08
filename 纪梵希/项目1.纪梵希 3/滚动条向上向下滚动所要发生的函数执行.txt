@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hello World</title>
+    <style type="text/css">
+        #wrapper {height: 100%;overflow: hidden;background: blue}
+        #screen {width: 300px;height: 800px;background: red}
+        #mark{position: relative;width: 200px;height: 50px;font-size: 60px;left: -100px;}
+        #cover{position: relative;width: 200px;height: 50px;font-size: 60px;left: 1360px;}
+        #dialog {position: relative;width: 200px;height: 50px;margin: 0 auto;font-size: 60px;line-height: 50px;opacity: 0;}
+        #ohyeah {height: 800px;}
+    </style>
+    <script src="Lazyload.js/jquery.min.js" type="text/javascript"></script> 
+</head>
+<body>
+<div id="wrapper">
+    <div id="screen"></div>
+    <div id="mark">Hello World</div>
+    <div id="dialog"></div>
+    <div id="cover">Hello World</div>
+    <div id="ohyeah"></div>
+</div>
+<script type="text/javascript" src="js/jquery-1.8.3.min.js" ></script>
+<script type="text/javascript">
+
+    var beforeScrollTop = $(window).scrollTop();
+    $(window).scroll(function() {
+        var afterScrollTop = $(window).scrollTop(),
+            updown = afterScrollTop - beforeScrollTop;
+        if( updown === 0 ) return false;            
+        beforeScrollTop = afterScrollTop;
+        console.log(updown > 0 ? "down" : "up");
+        
+        var isUpDown = updown > 0 ? "down" : "up";  //判断往上还是往下
+        var scrollTop = $(window).scrollTop();
+            console.log(scrollTop+"scrollTop");
+        if(isUpDown == 'down' && scrollTop >= 400) {  //数据自取，可依据元素的scrollTop值
+            var markLeft = parseInt($('#mark').css('left'));
+            left = markLeft + (scrollTop/20);   //值的变动与滚动幅度现相关  ， 自行调节
+            console.log(markLeft);
+            if(markLeft <= 640) {   //这个值是让他滚动到一个边界  ，  自行调节  
+                $('#mark').css('left', left + 'px');   //举例一个元素，其他的自己来咯
+            }
+            
+        } else if(isUpDown == 'up' && scrollTop <= 700) {   //往上时做相反  
+            var markLeft = parseInt($('#mark').css('left'));
+            left = markLeft - (scrollTop/30);   
+            if(markLeft >= -100) {
+                $('#mark').css('left', left + 'px');
+            }
+        }
+
+        //其他的如opacity left 同理，自己实践一下吧
+    });
+        
+    
+</script>
+</body>
+</html>

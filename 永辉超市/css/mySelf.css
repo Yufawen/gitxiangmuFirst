@@ -1,0 +1,276 @@
+body,div,p,ul,ol,li,dl,dt,dd,form,table,tr,td,th,caption,hr,h1,h2,h3,h4,h5,h6,img,input{
+	margin:0;
+	padding:0;
+}
+html{
+	font-size: 26.67vw;
+}
+html,body{
+	height: 100%;
+}
+body{
+	font-family:"微软雅黑",Arial;
+	display: -webkit-flex;
+	-webkit-flex-direction:column;
+    background: #f3f4f6;
+    
+	
+}
+ul,ol{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+img{
+	border:none;
+	display: block;
+}
+/* <!-- <section></section> --> */
+section{
+    flex: 1;
+    overflow: scroll;
+   
+ }
+/* <!-- <header></header> --> */
+header{
+    width: 100%;
+    height: 0.76rem;
+    background: #fd7722;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+header img{
+    width: 0.46rem;
+    height: 0.3rem;
+    position: absolute;
+    right: 0rem;
+}
+ .denglu{
+     height: 0.49rem;
+     background: #fd7722;
+     /* position: relative; */
+}
+.dianjidenglu{
+    /* position: absolute; */
+    /* top: 0.76rem; */
+    margin-left: 0.1rem;
+    margin-top: -0.5rem;
+    width: 3.53rem;
+    height: 1.69rem;
+    background: #ffffff;
+    border-radius: 0.1rem;
+}
+.dianjidenglu1{   
+    width: 3.53rem;
+    height: 0.845rem;
+    border-radius: 0.1rem 0.1rem 0rem 0rem;
+    display: flex;
+    align-items: center;
+}
+.dianjidenglu1 p{
+    font-size: 0.21rem;
+    color: #323232;
+    margin-left: 0.2rem;
+}
+.dianjidenglu2{  
+    width: 3.53rem;
+    height: 0.845rem;
+    border-radius: 0rem 0rem 0.1rem 0.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.tupianjiazi{
+    width: 20%;
+    height: 0.55rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tupianjiazi img{
+    width: 0.34rem;
+    height: 0.34rem;
+}
+.tupianjiazi p{
+    font-size: 0.14rem;
+    margin-top: 0.05rem;
+    color: #343434;
+}
+/* 我的钱包 */
+.qianbao{
+    /* margin-top: 1.3rem; */
+    margin-left: 0.1rem;
+    margin-top: 0.1rem;
+    width: 3.53rem;
+    height: 1.83rem;
+    background: #ffffff;
+    border-radius: 0.1rem;
+}
+.dianjidenglu1New{   
+    width: 3.53rem;
+    height: 0.43rem;
+    border-radius: 0.1rem 0.1rem 0rem 0rem;
+    display: flex;
+    align-items: center;
+  
+
+}
+.dianjidenglu1New p{
+    font-size: 0.21rem;
+    color: #323232;
+    margin-left: 0.2rem;
+}
+.dianjidenglu2New{  
+    width: 3.53rem;
+    height: 0.845rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.tupianjiaziNew{
+    width: 25%;
+    height: 0.83rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tupianjiaziNew img{
+    width: 0.34rem;
+    height: 0.34rem;
+}
+.tupianjiaziNew p{
+    font-size: 0.14rem;
+    margin-top: 0.05rem;
+    color: #343434;
+}
+.yu{
+    width: 3.53rem;
+    height: 0.54rem;
+    border-radius: 0rem 0rem 0.1rem 0.1rem; 
+    display: flex;
+
+    
+}
+.yuleft{
+    width: 50%;
+    height: 0.54rem;
+    border-radius: 0rem 0rem 0rem 0.1rem; 
+    background:#ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.yuleft img{
+    width: 0.45rem;
+    height: 0.28rem;
+}
+.yuleft p{
+    font-size: 0.14rem;
+    color: #a2a2a2;
+}
+.yuright{
+    width: 50%;
+    height: 0.54rem;
+    border-radius: 0rem 0rem 0.1rem 0rem; 
+    background:#ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.yuright img{
+    width: 0.45rem;
+    height: 0.28rem;
+}
+.yuright p{
+    font-size: 0.14rem;
+    color: #a2a2a2;
+}
+/* 服务帮助 */
+.fuwu{
+    /* margin-top: 1.3rem; */
+    margin-left: 0.1rem;
+    margin-top: 0.1rem;
+    width: 3.53rem;
+    height: 3.16rem;
+    border-radius: 0.1rem;
+    background: white;
+}
+.fuwufirst{   
+    width: 3.53rem;
+    height: 0.42rem;
+    border-radius: 0.1rem 0.1rem 0rem 0rem;
+    display: flex;
+    align-items: center; 
+}
+.fuwufirst p{
+    font-size: 0.21rem;
+    color: #323232;
+    margin-left: 0.2rem;
+}
+.fuwutwo{  
+    width: 3.53rem;
+    height: 0.91rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #f3f4f6;
+}
+.fuwutwo img{
+    width: 3.34rem;
+    height: 0.74rem;
+}
+.shualian{
+    width: 3.53rem;
+    height: 1.83rem;
+    border-radius: 0rem 0rem 0.1rem 0.1rem; 
+    display: flex;
+    flex-wrap: wrap;  
+}
+.shuanlianNew{
+    width: 0.8825rem;
+    height: 0.86rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.shuanlianNew img{
+    width: 0.34rem;
+    height: 0.34rem;
+}
+.shuanlianNew p{
+    font-size: 0.14rem;
+    margin-top: 0.05rem;
+    color: #343434;
+}
+/* footer */
+footer{
+    width: 100%;
+    height: 0.45rem;
+    display: flex;
+}
+footer .adom{
+ width: 25%;
+ height: 100%;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+
+ 
+}
+.adom img{
+ width: 0.26rem;
+ height: 0.26rem;
+}
+.adom p{
+ font-size: 0.13rem;
+ color: #868686;	
+
+}

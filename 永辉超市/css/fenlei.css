@@ -1,0 +1,184 @@
+body,div,p,ul,ol,li,dl,dt,dd,form,table,tr,td,th,caption,hr,h1,h2,h3,h4,h5,h6,img,input{
+	margin:0;
+	padding:0;
+}
+html{
+	font-size: 26.67vw;
+}
+html,body{
+	height: 100%;
+}
+body{
+	font-family:"微软雅黑",Arial;
+	display: -webkit-flex;
+	-webkit-flex-direction:column;
+   
+    
+	
+}
+ul,ol{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+img{
+	border:none;
+	display: block;
+}
+/* <!-- <header></header> -->这是搜素栏 */
+header{
+    width: 100%;
+    height: 0.8rem;
+    display: flex;
+    justify-content: center;
+}
+.sousuo{
+    width: 3.59rem;
+    height: 0.33rem;
+    background: #f1f1f1;
+    border-radius:0.1rem;
+    margin-top: 0.35rem;
+    display: flex;
+     
+}
+.sousuo img{
+    margin-left: 0.2rem;
+    width: 0.41rem;
+    height: 0.33rem;
+}
+.text1{
+    width: 2.75rem;
+    display: block;
+    background: #f1f1f1;
+    font-size: 0.16rem;
+    border: none;
+    outline: none;
+    color: #9d9d9d;
+}
+/* 进行圣杯布局的大盒子 */
+section{
+   flex: 1;
+   overflow: scroll;
+   display: flex;
+}
+.boxleft{
+    width: 0.75rem;
+    height: 100%;
+    background:#f9f9f9;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.boxleft ul li{
+    width: 100%;
+    height: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.15rem;
+    color: #939393;
+    background: #f8f8f8;
+    border: 1px solid #ececec;
+}
+.boxleft::-webkit-scrollbar{
+    display: none;
+    
+}
+.boxright{
+    width: 2.98rem;
+    height: 100%;
+    background:#f9f9f9;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.boxright::-webkit-scrollbar{
+    display: none;
+}
+/* 添加里面的主体内容 */
+.content{
+    width: 100%;
+    height: 1.27rem;
+    background: #ffffff;
+    display: flex;
+    margin: 0.1rem 0rem;
+}
+.contentleft{
+    width: 33%;
+    height: 1.27rem;
+   
+}
+.contentright{
+    width: 67%;
+    height: 1.27rem;
+ 
+}
+.contentright1{
+    width: 100%;
+    height: 0.87rem;
+   
+    display: flex;flex-direction: column;
+    justify-content: center;
+   
+   
+}
+.contentright1 p{
+   
+    display: block; 
+    font-size: 0.14rem;
+    color: #525252;
+    margin-bottom: 0.1rem;
+}
+.contentright1 a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 0.32rem;
+    height: 0.2rem;
+    border: 1px solid #f3e7eb;
+    border-radius: 0.05rem;
+    font-size: 0.12rem;
+    color: #f48853;
+}
+.contentright2{
+    width: 100%;
+    height: 0.4rem;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contentright2 p{
+    display: block;
+    font-size: 0.15rem;
+    color: #da3109;
+}
+.contentright2 img{
+    width: 0.32rem;
+    height: 0.32rem;
+}
+/* <!-- <footer></footer> -->这是结尾部分 */
+footer{
+    width: 100%;
+    height: 0.48rem;
+    
+    display: flex;
+}
+footer .adom{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+.adom img{
+    width: 0.26rem;
+    height: 0.26rem;
+}
+.adom p{
+    font-size: 0.13rem;
+    color: #868686;	
+  
+}

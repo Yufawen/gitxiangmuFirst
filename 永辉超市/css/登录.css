@@ -1,0 +1,94 @@
+body, div, p, ol, ul, li, dl, dt, dd, form, table, tr, td, hr, h1, h2, h3, h4, h5, h6, fieldset, img, input, figure {
+    margin: 0;
+    padding: 0;
+}
+
+body,html{
+    height:100%;
+
+}
+
+html{
+    font-size: 26.67vw;
+}
+
+
+body {
+    width: 100%;
+    height: 100%;
+    /*font-family: "Helvetica Neue", Helvetica, STHeiTi, sans-serif;*/
+    background: #FFF;
+}
+
+ul,li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+input {
+    outline: 0;
+}
+
+.text{
+    margin-top: 1.05rem;
+    width: 100%;
+    height: 1.2rem;
+    font-size: 38px;
+  
+}
+.text p{
+    margin-left: .25rem;
+}
+.ipt{
+    width: 100%;
+    height: 2rem;
+}
+.ipt input{
+    margin-left: 18px;
+    width: 3.3rem;
+    border: 0;
+    font-size: 18px;
+    display: inline-block;
+    color: #b5b5b5;
+    padding: .15rem 0rem;
+    box-sizing: border-box;
+    border-bottom: 1px solid #000000;
+}
+.submit {
+    margin-top: 13px;
+    /*display: block;*/
+    float: right;
+    margin-right: 20px;
+    width: 1.3rem;
+    color: #fff;
+    font-size: 16px;
+    background: #ffdcbc;
+    padding: 12px 0px;
+    text-align: center;
+    border-radius: 20px;
+}
+.img{
+    margin-top: 1rem;
+    width: 100%;
+    height:.6rem;
+}
+.img img{
+    margin: 0 auto;
+    display: block;
+    width: 60px;
+    height: 60px;
+}
+.box{
+    margin-top: 0.3rem;
+    height: .6rem;
+    font-size: 12px;
+    color: #999999;
+    text-align: center;
+    
+}
+.box a{
+    text-decoration: underline;
+}
+
